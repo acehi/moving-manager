@@ -1,0 +1,11 @@
+# PostgreSQL数据库配置
+postgresql:
+  host: localhost
+  port: 5432
+  user: q
+  password: "1"
+  dbname: movingManager
+  sslmode: disable
+  max_open_conns: 20
+  max_idle_conns: 10
+  conn_max_lifetime: 300 # 秒
